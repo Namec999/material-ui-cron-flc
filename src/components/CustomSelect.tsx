@@ -59,7 +59,6 @@ export default function CustomSelect(props: CustomSelectProps) {
           (option as SelectOptions).value === (val as SelectOptions).value
         }
         getOptionLabel={(option) => (option as SelectOptions).label}
-        size='small'
         forcePopupIcon
         disableClearable={disableClearable}
         autoComplete
